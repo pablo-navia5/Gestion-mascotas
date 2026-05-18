@@ -28,5 +28,5 @@ public class PetModel {
     @Min(value = 0, message = "La edad no puede ser un número negativo")
     private int age;
 
-    private boolean isAdopted = false;
+    private double weight;
 }
